@@ -111,8 +111,8 @@ export default async function Home() {
           JD
         </div>
         
-        <h1 className="text-2xl font-bold">John Doe</h1>
-        <p className="text-slate-400 mb-6">Full Stack Developer</p>
+        <h1 className="text-2xl font-bold">Ayush Rawat</h1>
+        <p className="text-slate-400 mb-6">Full Stack SAP Developer</p>
         
         {/* Action Buttons */}
         <div className="flex flex-col gap-3">
@@ -125,7 +125,7 @@ export default async function Home() {
 
           <form action={submitToCap}>
             <input type="hidden" name="communityId" value="ayush_rawat25" />
-            <input type="hidden" name="answer" value="your-answer" />
+            <input type="hidden" name="answer" value="Hydration" />
             <input type="hidden" name="week" value="week4" />
 
             <button type="submit" className="w-full py-3 px-4 bg-red-600 rounded-lg hover:bg-red-500 transition font-medium cursor-pointer flex items-center justify-center gap-2">
